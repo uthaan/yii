@@ -11,8 +11,7 @@ Code is written on Yii framework 1.1.15 + bootstrap styles
 
 SETUP
 
-1. Unzip site.zip and move content of the folder to your web root location
-   (including .htaccess file which can be hidden on *nix systems)
+1. Move content of the folder to your web root location
 2. Create an empty database and import user.sql file in it
 3. Create a database user with needed privileges 
 4. Modify  db connection in this file  your_web_root/protected/config/main.php
