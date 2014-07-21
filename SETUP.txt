@@ -1,0 +1,30 @@
+REQUIREMENTS
+
+1. PHP > 5.5
+2. MySQL > 5.0
+
+
+DESCRIPTION
+
+Code is written on Yii framework 1.1.15 + bootstrap styles
+
+
+SETUP
+
+1. Unzip site.zip and move content of the folder to your web root location
+   (including .htaccess file which can be hidden on *nix systems)
+2. Create an empty database and import user.sql file in it
+3. Create a database user with needed privileges 
+4. Modify  db connection in this file  your_web_root/protected/config/main.php
+
+		'db'=>array(
+			'connectionString' => 'mysql:host=localhost;dbname=db_name',
+			'emulatePrepare' => true,
+			'username' => 'db_username',
+			'password' => 'db_pass',
+			'charset' => 'utf8',
+		),
+
+Enjoy 
+
+
